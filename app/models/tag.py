@@ -13,5 +13,5 @@ class Tag(db.Model, ModelMixin):
     name = db.Column(db.String(100), unique=True)  # 标题
     addtime = db.Column(db.DateTime, index=True, default=datetime.now)  # 添加时间
 
-    # 定义外键关系
+    # 引用外键关系
     movies = db.relationship("Movie", backref="tag")  # 电影的外键关联

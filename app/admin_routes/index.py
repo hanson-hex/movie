@@ -1,6 +1,13 @@
 # -*- encoding=utf-8 -*-
 from app import app
+from flask import Flask
+from flask import render_template
+from flask import Blueprint
 
-@app.route('/')
+main = Blueprint('index', __name__)
+
+
+
+@main.route('/')
 def index():
-    return '<h1>hello world!</h1>'
+    return render_template('home/index.html ')

@@ -4,8 +4,10 @@ from app import db
 from datetime import datetime
 
 
-# 上映预告
-class Preview(db.Model, ):
+class Preview(db.Model, ModelMixin):
+    """
+    上映预告
+    """
     __tablename__ = "preview"
     id = db.Column(db.Integer, primary_key=True)  # 编号
     title = db.Column(db.String(255), unique=True)  # 电影标题

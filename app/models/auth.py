@@ -4,7 +4,6 @@ from app import db
 from datetime import datetime
 
 
-
 class Auth(db.Model, ModelMixin):
     """
     权限
