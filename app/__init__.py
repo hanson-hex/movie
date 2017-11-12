@@ -17,7 +17,13 @@ from app.home_routes.user import main as user_routes
 
 # 引入后台蓝图
 from app.admin_routes.index import main as admin_routes
-from app.admin_routes.index import main as tag_routes
+from app.admin_routes.tag import main as tag_routes
+from app.admin_routes.movie import main as movie_routes
+from app.admin_routes.preview import main as preview_routes
+from app.admin_routes.user import main as admin_user_routes
+from app.admin_routes.comment import main as comment_routes
+from app.admin_routes.moviecol import main as moviecol_routes
+from app.admin_routes.log import main as log_routes
 
 
 # 注册蓝图
@@ -25,9 +31,13 @@ app.register_blueprint(index_routes)
 app.register_blueprint(user_routes, url_prefix='/user')
 
 app.register_blueprint(admin_routes, url_prefix='/admin')
-app.register_blueprint(tag_routes, url_prefix='/tag')
-
-
+app.register_blueprint(tag_routes, url_prefix='/admin/tag')
+app.register_blueprint(movie_routes, url_prefix='/admin/movie')
+app.register_blueprint(preview_routes, url_prefix='/admin/preview')
+app.register_blueprint(admin_user_routes, url_prefix='/admin/user')
+app.register_blueprint(comment_routes, url_prefix='/admin/comment')
+app.register_blueprint(moviecol_routes, url_prefix='/admin/moviecol')
+app.register_blueprint(log_routes, url_prefix='/admin/log')
 
 @app.errorhandler(404)
 def page_not_found(error):
