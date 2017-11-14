@@ -6,10 +6,15 @@ from flask import redirect
 from flask import url_for
 from . import admin_login_req
 
-main = Blueprint('comment', __name__)
+main = Blueprint('role', __name__)
 
+
+@main.route('/add/')
+@admin_login_req
+def add():
+    return render_template('admin/role/add.html')
 
 @main.route('/list/')
 @admin_login_req
 def list():
-    return render_template('admin/comment/list.html')
+    return render_template('admin/role/list.html')

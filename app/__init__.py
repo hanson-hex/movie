@@ -24,6 +24,9 @@ from app.admin_routes.user import main as admin_user_routes
 from app.admin_routes.comment import main as comment_routes
 from app.admin_routes.moviecol import main as moviecol_routes
 from app.admin_routes.log import main as log_routes
+from app.admin_routes.role import main as role_routes
+from app.admin_routes.admin import main as administrator_routes
+from app.admin_routes.auth import main as auth_routes
 
 
 # 注册蓝图
@@ -38,6 +41,10 @@ app.register_blueprint(admin_user_routes, url_prefix='/admin/user')
 app.register_blueprint(comment_routes, url_prefix='/admin/comment')
 app.register_blueprint(moviecol_routes, url_prefix='/admin/moviecol')
 app.register_blueprint(log_routes, url_prefix='/admin/log')
+app.register_blueprint(role_routes, url_prefix='/admin/role')
+app.register_blueprint(auth_routes, url_prefix='/admin/auth')
+app.register_blueprint(administrator_routes, url_prefix='/admin/administrator')
+
 
 @app.errorhandler(404)
 def page_not_found(error):

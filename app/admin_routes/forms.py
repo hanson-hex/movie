@@ -12,10 +12,19 @@ from wtforms import SelectMultipleField
 from wtforms.validators import DataRequired
 from wtforms.validators import ValidationError
 from wtforms.validators import EqualTo
-from app.models import Admin
-from app.models import Tag
-from app.models import Auth
-from app.models import Role
+from app.models.admin import Admin
+from app.models.tag import Tag
+from app.models.auth import Auth
+from app.models.role import Role
+from app.models.movie import Movie
+from app.models.adminlog import Adminlog
+from app.models.moviecol import Moviecol
+from app.models.userlog import Userlog
+from app.models.comment import Comment
+from app.models.user import User
+from app.models.preview import Preview
+from app.models.oplog import Oplog
+from app.models.userlog import Userlog
 
 from flask import session
 
@@ -27,7 +36,7 @@ roles = Role.query.all()
 
 class LoginForm(FlaskForm):
     """管理员登录表单"""
-    account = StringField(
+    name = StringField(
         label='帐号',
         validators=[
             DataRequired("请输入帐号！")
@@ -60,9 +69,9 @@ class LoginForm(FlaskForm):
     )
 
     def validate_account(self, field):
-        account = field.data
-        admin = Admin.query.filter_by(name=account).count()
-        if admin == 0:
+        username = field.data
+        admin = Admin.find_by(name=username)
+        if admin == None:
             raise ValidationError("帐号不存在!")
 
 

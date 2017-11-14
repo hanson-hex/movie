@@ -13,3 +13,4 @@ class Auth(db.Model, ModelMixin):
     name = db.Column(db.String(100), unique=True)  # 名称
     url = db.Column(db.String(255), unique=True)  # 地址
     addtime = db.Column(db.DateTime, index=True, default=datetime.now)  # 添加时间
+

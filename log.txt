@@ -1,0 +1,53 @@
+22:08:45 清空数据表
+22:08:45 新建数据表
+22:20:49 清空数据表
+22:20:49 新建数据表
+22:22:12 清空数据表
+22:22:12 新建数据表
+22:23:43 清空数据表
+22:23:43 新建数据表
+22:25:43 清空数据表
+22:25:43 新建数据表
+22:27:23 程序执行创建添加管理员
+22:28:51 程序执行创建添加管理员
+22:29:19 程序执行创建添加管理员
+22:31:16 程序执行创建添加管理员
+22:32:24 程序执行创建添加管理员
+22:33:17 程序执行创建添加管理员
+22:33:17 a <Admin (transient 72038104)>
+22:33:17 a <Admin (transient 62078312)>
+22:33:17 a <Admin (transient 71924536)>
+22:33:17 a <Admin (transient 73279192)>
+22:33:17 a <Admin (transient 73278800)>
+22:33:18 a <Admin (transient 72038104)>
+22:33:18 a <Admin (transient 62078312)>
+22:33:18 a <Admin (transient 71924536)>
+22:33:18 a <Admin (transient 73279136)>
+22:33:26 程序执行创建添加管理员
+22:33:27 a <Admin (transient 72036192)>
+22:33:27 a <Admin (transient 62074160)>
+22:33:27 a <Admin (transient 71920440)>
+22:33:27 a <Admin (transient 72624000)>
+22:33:27 a <Admin (transient 72625904)>
+22:33:27 a <Admin (transient 72036192)>
+22:33:27 a <Admin (transient 62074160)>
+22:33:27 a <Admin (transient 71920440)>
+22:33:28 a <Admin (transient 72625344)>
+22:50:42 进入路由登录页面
+22:50:44 进入路由登录页面
+22:50:47 进入路由登录页面
+22:50:56 进入路由登录页面
+22:58:33 admin None
+23:01:51 admin <Admin 1>
+23:01:51 密码错误
+23:02:09 admin <Admin 1>
+23:06:23 admin <Admin 2>
+23:37:26 admin <Admin 1>
+23:39:04 admin <Admin 1>
+23:43:12 admin <Admin 1>
+23:44:12 admin <Admin 1>
+23:46:43 admin <Admin 1>
+23:54:19 admin <Admin 1>
+23:56:47 admin <Admin 1>
+00:01:57 admin <Admin 1>
+00:04:06 admin <Admin 1>

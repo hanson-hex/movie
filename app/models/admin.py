@@ -3,9 +3,10 @@ from . import ModelMixin
 from app import db
 from datetime import datetime
 from werkzeug.security import check_password_hash
+from werkzeug.security import generate_password_hash
 
 
-class Admin(db.Model):
+class Admin(db.Model,ModelMixin):
     """
     管理员
     """
@@ -22,6 +23,14 @@ class Admin(db.Model):
     # 引用外键关系
     adminlogs = db.relationship("Adminlog", backref="admin")  # 管理员日志外键关联
     oplogs = db.relationship("Oplog", backref="admin")  # 管理员操作日志外键关联
+
+    def __init__(self, form):
+        self.name = form.get('name', '')
+        password = form.get('pwd', '')
+        self.pwd = generate_password_hash(password)
+        self.is_super =int(form.get('is_super', 1)) # 默认为不是超级管理员
+        self.role_id = int(form.get('role_id', 1))
+
 
     def check_pwd(self, pwd):
         return check_password_hash(self.pwd, pwd)

@@ -16,3 +16,7 @@ class Role(db.Model, ModelMixin):
 
     # 创建外键
     admins = db.relationship("Admin", backref="role")  # 管理员外键关联
+
+    def __init__(self, form):
+        self.name = form.get('name', '')
+        self.auths = form.get('auths', '')
