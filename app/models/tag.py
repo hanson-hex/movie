@@ -15,3 +15,6 @@ class Tag(db.Model, ModelMixin):
 
     # 引用外键关系
     movies = db.relationship("Movie", backref="tag")  # 电影的外键关联
+
+    def __init__(self, form):
+        self.name = form.get('name', '')

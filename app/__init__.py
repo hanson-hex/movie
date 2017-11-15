@@ -3,11 +3,13 @@ from flask import Flask
 from flask import Flask
 from flask import render_template
 from flask_sqlalchemy import SQLAlchemy
+import os
+
 
 app = Flask(__name__)
 # 将配置文件引入
 app.config.from_pyfile('app.conf')
-
+app.config['UP_DIR'] = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'static/uploads/')
 
 db = SQLAlchemy(app)
 

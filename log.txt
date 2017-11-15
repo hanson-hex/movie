@@ -51,3 +51,200 @@
 23:56:47 admin <Admin 1>
 00:01:57 admin <Admin 1>
 00:04:06 admin <Admin 1>
+08:58:39 admin <Admin 1>
+08:59:28 admin <Admin 1>
+09:02:16 tag <Tag 1>
+09:02:19 tag <Tag 1>
+09:03:24 tag 1
+09:05:03 tag 1
+09:08:00 tag 0
+10:09:59 tag 0
+10:10:43 tag 0
+10:11:52 tag 0
+10:11:55 tag 0
+11:57:21 进入添加电影路由
+12:03:33 进入添加电影路由
+12:03:33 输入不为空
+12:03:33 开始保存
+12:03:33 开始保存
+12:03:33 进入添加电影路由
+12:07:38 进入添加电影路由
+12:07:38 输入不为空
+12:07:39 进入添加电影路由
+12:09:53 进入添加电影路由
+12:09:53 输入不为空
+12:09:53 开始保存
+12:09:53 开始保存
+12:09:53 进入添加电影路由
+12:33:33 进入添加电影路由
+12:37:31 admin <Admin 1>
+12:38:53 进入添加电影路由
+12:39:20 进入添加电影路由
+12:39:20 输入不为空
+12:39:20 开始保存
+12:39:20 开始保存
+12:39:20 进入添加电影路由
+13:12:08 进入添加电影路由
+13:12:10 进入添加电影路由
+13:12:29 开始保存
+13:12:29 开始保存
+13:23:02 开始保存
+13:23:25 进入添加电影路由
+13:24:43 进入添加电影路由
+13:24:43 输入不为空
+13:24:43 开始保存
+13:24:43 开始保存
+13:24:43 进入添加电影路由
+13:26:59 进入添加电影路由
+13:28:00 进入添加电影路由
+13:28:00 输入不为空
+13:28:00 开始保存
+13:28:00 开始保存
+13:28:00 进入添加电影路由
+13:28:10 tag 0
+13:28:16 进入添加电影路由
+13:28:34 进入添加电影路由
+13:29:29 进入添加电影路由
+13:29:41 进入添加电影路由
+13:30:06 进入添加电影路由
+13:30:39 进入添加电影路由
+13:30:39 输入不为空
+13:30:39 开始保存
+13:30:39 开始保存
+13:30:39 进入添加电影路由
+13:36:41 进入添加电影路由
+13:37:13 进入添加电影路由
+13:38:46 进入添加电影路由
+13:38:46 输入不为空
+13:38:46 开始保存
+13:38:47 开始保存
+13:38:47 进入添加电影路由
+13:47:28 进入添加电影路由
+13:56:03 movie url 20171114132800f2d35b402dbb44bd841d3cf2a5665b4a.flv
+14:03:53 开始保存
+14:03:53 movie url 2017111414035374b9dea12ecf48959862f333489cd350.mp4
+14:04:17 开始保存
+14:04:17 movie url 20171114140417c754d1b722134889baea37f26d9c48af.flv
+14:04:49 开始保存
+14:04:50 movie url 2017111414044945db61848eaa4869ba3626f5270147a3.flv
+14:05:01 开始保存
+14:05:01 movie url 201711141405016556f75eb600485d9f010ed9d575826b.mp4
+14:14:41 开始保存
+14:14:42 movie url 2017111414144233160e42d570481799363ea41eb9a1a8.flv
+14:14:44 movie url 2017111414144233160e42d570481799363ea41eb9a1a8.flv
+14:14:46 movie url 2017111414144233160e42d570481799363ea41eb9a1a8.flv
+14:14:47 movie url 2017111414144233160e42d570481799363ea41eb9a1a8.flv
+14:14:48 movie url 2017111414144233160e42d570481799363ea41eb9a1a8.flv
+14:14:49 movie url 2017111414144233160e42d570481799363ea41eb9a1a8.flv
+14:14:50 movie url 2017111414144233160e42d570481799363ea41eb9a1a8.flv
+14:25:04 admin <Admin 1>
+14:25:10 movie url 201711141338471d1ce8d21f2649c88deda946f136302d
+14:25:28 movie url 201711141330393711f8d50f8c4b4fb98905446a8de9ea.mp4
+14:25:48 进入添加电影路由
+14:32:06 movie url 2017111414144233160e42d570481799363ea41eb9a1a8.flv
+14:43:18 movie url 201711141330393711f8d50f8c4b4fb98905446a8de9ea.mp4
+14:43:47 进入添加电影路由
+14:43:53 movie url 201711141330393711f8d50f8c4b4fb98905446a8de9ea.mp4
+14:44:16 movie url 2017111414144233160e42d570481799363ea41eb9a1a8.flv
+14:48:09 开始保存
+14:48:09 movie url 20171114144809d31ce991293c45ecb92a8390eadbe3a4.ifox
+14:48:25 进入添加电影路由
+14:49:26 进入添加电影路由
+14:49:30 movie url 201711141338471d1ce8d21f2649c88deda946f136302d
+14:49:37 开始保存
+14:49:38 movie url 20171114144937c6b417c84aea43258e79f8fdd4572d10.mp4
+20:11:11 进入添加电影路由
+20:11:15 进入添加电影路由
+20:11:48 进入添加电影路由
+20:11:48 输入不为空
+20:11:48 开始保存
+20:11:48 开始保存
+20:11:48 进入添加电影路由
+20:11:53 movie url 20171114201148b2cfe0e7f723499e9d60571fa62f9d8e.flv
+20:11:56 进入添加电影路由
+20:12:59 movie url 20171114201148b2cfe0e7f723499e9d60571fa62f9d8e.flv
+20:17:14 开始保存
+20:17:14 movie url 20171114201714c1cadf65a06548808b734be893418852.mp4
+20:20:45 开始保存
+20:20:45 movie url 2017111420204517ccf11fa2fe42a3b1a190cacf9ef3bc.flv
+20:25:02 movie url 20171114144937c6b417c84aea43258e79f8fdd4572d10.mp4
+20:25:25 movie url 20171114144809d31ce991293c45ecb92a8390eadbe3a4.ifox
+20:28:08 进入添加电影路由
+20:28:16 movie url 201711141330393711f8d50f8c4b4fb98905446a8de9ea.mp4
+20:28:41 movie url 20171114144809d31ce991293c45ecb92a8390eadbe3a4.ifox
+20:33:09 movie url 201711141330393711f8d50f8c4b4fb98905446a8de9ea.mp4
+20:34:53 movie url 2017111420204517ccf11fa2fe42a3b1a190cacf9ef3bc.flv
+20:40:22 进入添加电影路由
+20:43:32 movie url 2017111420204517ccf11fa2fe42a3b1a190cacf9ef3bc.flv
+20:44:03 开始保存
+20:44:03 movie url 2017111420440352486a2d77674b97be6c617898653321
+20:53:46 开始保存
+20:53:47 movie url 2017111420534682ad96907597469983b3d8cf99602833.mp4
+20:55:59 admin <Admin 1>
+20:55:59 movie url 2017111420534682ad96907597469983b3d8cf99602833.mp4
+20:56:05 movie url 20171114144809d31ce991293c45ecb92a8390eadbe3a4.ifox
+21:37:35 进入添加电影路由
+21:38:06 进入添加电影路由
+21:38:06 输入不为空
+21:38:06 开始保存
+21:38:06 开始保存
+21:38:06 进入添加电影路由
+21:38:13 movie url 201711142138064883c4340b044debae2c193f3df4bb20.mp4
+21:57:12 开始保存
+22:06:51 form.logo.data 羞羞的铁拳.jpeg
+22:06:51 开始保存
+22:18:01 进入添加电影路由
+22:18:25 进入添加电影路由
+22:18:25 输入不为空
+22:18:25 form.url.data <FileStorage: '《香港华尔街》首曝预告%5B粤语版%5D：吴镇宇演绎金融大鳄.mp4' ('video/mp4')>
+22:18:25 form.logo.data <FileStorage: 'kingkong.jpg' ('image/jpeg')>
+22:18:25 form.url.data 《香港华尔街》首曝预告%5B粤语版%5D：吴镇宇演绎金融大鳄.mp4
+22:18:25 form.logo.data kingkong.jpg
+22:18:25 开始保存
+22:18:25 开始保存
+22:18:25 进入添加电影路由
+22:35:18 form.logo.data kingkong.jpg
+22:35:18 开始保存
+22:35:21 form.logo.data kingkong.jpg
+22:35:21 开始保存
+22:36:23 admin <Admin 1>
+22:36:41 form.logo.data 头像.jpg
+22:36:41 开始保存
+22:37:44 进入添加电影路由
+22:59:54 data {'csrf_token': 'IjQxYzJkZmUyNzQ5MzQ4MDdlZDc5ZmYxNDcwMWYyNTc2ODkxNDhmMDki.DOyWYg.ah58SbpMGPSbKssapJoI3zizuEU', 'logo': 'kingkong.jpg', 'submit': True, 'title': 'gf '}
+22:59:54 form.logo <input id="input_logo" name="logo" type="file">
+22:59:54 form.logo.data kingkong.jpg
+23:02:23 进入添加电影路由
+23:02:45 进入添加电影路由
+23:02:45 输入不为空
+23:02:45 data {'title': 'fd', 'star': 1, 'url': <FileStorage: '《香港华尔街》首曝预告%5B粤语版%5D：吴镇宇演绎金融大鳄.mp4' ('video/mp4')>, 'info': 'dsgfdg', 'release_time': '2017-11-14', 'area': 'fghj', 'tag_id': 1, 'length': '3', 'submit': True, 'csrf_token': 'IjQxYzJkZmUyNzQ5MzQ4MDdlZDc5ZmYxNDcwMWYyNTc2ODkxNDhmMDki.DOyW_w.FnK4By16_1ObhnTX01e2aM2DTPs', 'logo': <FileStorage: 'kingkong.jpg' ('image/jpeg')>}
+23:02:45 form.logo <input id="input_logo" name="logo" type="file">
+23:02:45 form.logo.data <FileStorage: 'kingkong.jpg' ('image/jpeg')>
+23:02:45 form.logo.data.filename kingkong.jpg
+23:02:45 开始保存
+23:02:45 开始保存
+23:02:45 进入添加电影路由
+23:09:19 data {'title': 'dfhg', 'submit': True, 'csrf_token': 'IjQxYzJkZmUyNzQ5MzQ4MDdlZDc5ZmYxNDcwMWYyNTc2ODkxNDhmMDki.DOyYlw.Jrr0nEZmVQc5x1ZfjBJwSuGTfSE', 'logo': <FileStorage: 'kingkong.jpg' ('image/jpeg')>}
+23:09:19 form.logo <input id="input_logo" name="logo" type="file">
+23:09:19 form.logo.data <FileStorage: 'kingkong.jpg' ('image/jpeg')>
+23:10:56 form.logo.data <FileStorage: '缝纫机.jpg' ('image/jpeg')>
+23:10:56 开始保存
+23:19:22 进入添加电影路由
+23:21:02 进入添加电影路由
+23:21:10 进入添加电影路由
+23:21:35 进入添加电影路由
+23:21:44 进入添加电影路由
+23:22:38 进入添加电影路由
+23:26:31 movie url 2017111420534682ad96907597469983b3d8cf99602833.mp4
+23:27:16 进入添加电影路由
+23:27:37 进入添加电影路由
+23:27:37 输入不为空
+23:27:37 data {'release_time': '2017-11-21', 'length': '3', 'logo': <FileStorage: 'kingkong.jpg' ('image/jpeg')>, 'area': 'dgf', 'tag_id': 1, 'url': <FileStorage: '《羞羞的铁拳》曝首款预告-片花-高清正版视频在线观看–爱奇艺.flv' ('application/octet-stream')>, 'star': 1, 'title': 'dcv', 'submit': True, 'csrf_token': 'IjQxYzJkZmUyNzQ5MzQ4MDdlZDc5ZmYxNDcwMWYyNTc2ODkxNDhmMDki.DOyc1A.FwnUO3wzrKxeLUrYHg6T6_7C00I', 'info': 'fdvnc'}
+23:27:37 form.logo <input id="input_logo" name="logo" type="file">
+23:27:37 form.logo.data <FileStorage: 'kingkong.jpg' ('image/jpeg')>
+23:27:37 form.logo.data.filename kingkong.jpg
+23:27:37 开始保存
+23:27:37 开始保存
+23:27:37 进入添加电影路由
+23:28:07 movie url 201711142327378a19b80060a140a197ad4fca1dc7dc58.flv
+23:29:45 movie url 201711142327378a19b80060a140a197ad4fca1dc7dc58.flv

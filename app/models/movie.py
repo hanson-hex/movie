@@ -29,3 +29,16 @@ class Movie(db.Model, ModelMixin):
     # 引用外键关系
     comments = db.relationship("Comment", backref="movie")  # 评论外键关联
     moviecols = db.relationship("Moviecol", backref="movie")  # 收藏外键关联
+
+    def __init__(self, form):
+        self.title = form.get('title', '')
+        self.url = ''
+        self.info = form.get('info', '')
+        self.logo = ''
+        self.star = int(form.get('star', '0'))
+        self.playnum = 0
+        self.commentnum = 0
+        self.area = form.get('area', '')
+        self.release_time = form.get('release_time', '')
+        self.length = form.get('length', '')
+        self.tag_id = form.get('tag_id', '')

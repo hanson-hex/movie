@@ -13,3 +13,7 @@ class Preview(db.Model, ModelMixin):
     title = db.Column(db.String(255), unique=True)  # 电影标题
     logo = db.Column(db.String(255), unique=True)  # 预告封面
     addtime = db.Column(db.DateTime, index=True, default=datetime.now)  # 添加时间
+
+    def __init__(self, form):
+        self.title = form.get('title', '')
+        self.logo = ''
