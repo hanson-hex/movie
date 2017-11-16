@@ -19,4 +19,5 @@ class Role(db.Model, ModelMixin):
 
     def __init__(self, form):
         self.name = form.get('name', '')
-        self.auths = form.get('auths', '')
+        auths = form.get('auths', '')
+        self.auths = ','.join(list(map(lambda v: str(v), auths)))

@@ -15,3 +15,7 @@ class Userlog(db.Model, ModelMixin):
 
     # 创建外键
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))  # 所属会员ID
+
+    def __init__(self, form):
+        self.ip = form.get('ip', '')
+        self.user_id = int(form.get('user_id', -1))

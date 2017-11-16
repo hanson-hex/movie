@@ -15,7 +15,7 @@ import uuid
 import os
 from app.utils import log
 from flask import request
-
+from . import admin_auth
 
 main = Blueprint('movie', __name__)
 
@@ -38,6 +38,7 @@ def saved_file(path, data):
 
 
 @main.route('/add/', methods=['GET', 'POST'])
+@admin_auth
 @admin_login_req
 def add():
     form = MovieForm()
@@ -65,7 +66,8 @@ def add():
     return render_template('admin/movie/add.html', form=form)
 
 
-@main.route('/list/<int:page>', methods=['GET'])
+@main.route('/list/<int:page>/', methods=['GET'])
+@admin_auth
 @admin_login_req
 def list(page=None):
     if page == None:
@@ -78,6 +80,7 @@ def list(page=None):
 
 
 @main.route('/delete/<int:id>/', methods=['GET'])
+@admin_auth
 @admin_login_req
 def delete(id):
     """
@@ -89,7 +92,8 @@ def delete(id):
     return redirect(url_for('.list', page=1))
 
 
-@main.route('/edit/<int:id>', methods=['GET', 'POST'])
+@main.route('/edit/<int:id>/', methods=['GET', 'POST'])
+@admin_auth
 @admin_login_req
 def edit(id):
     """

@@ -248,3 +248,116 @@
 23:27:37 进入添加电影路由
 23:28:07 movie url 201711142327378a19b80060a140a197ad4fca1dc7dc58.flv
 23:29:45 movie url 201711142327378a19b80060a140a197ad4fca1dc7dc58.flv
+10:16:09 admin <Admin 1>
+10:17:51 form.logo.data <FileStorage: 'kingkong.jpg' ('image/jpeg')>
+10:17:51 开始保存
+10:23:27 form.logo.data <FileStorage: 'kingkong.jpg' ('image/jpeg')>
+10:23:27 开始保存
+10:36:40 preview <Preview 3>
+10:38:17 preview <Preview 3>
+10:38:17 preview logo 20171115101751686d51dc9ff04f99906b67546bb5f817.jpg
+10:38:17 preview title 变形金刚5
+10:39:57 preview <Preview 3>
+10:39:57 preview logo 20171115101751686d51dc9ff04f99906b67546bb5f817.jpg
+10:39:57 preview title 变形金刚5
+10:40:00 preview <Preview 3>
+10:40:00 preview logo 20171115101751686d51dc9ff04f99906b67546bb5f817.jpg
+10:40:00 preview title 变形金刚5
+10:40:39 preview <Preview 4>
+10:40:39 preview logo 20171115102327174a4c9f6d51476b812a5f019726e507.jpg
+10:40:39 preview title 扽广丰
+10:40:46 preview <Preview 4>
+10:42:23 preview <Preview 4>
+10:42:23 preview logo 20171115102327174a4c9f6d51476b812a5f019726e507.jpg
+10:42:23 preview title 扽广丰
+10:42:31 preview <Preview 4>
+10:43:01 preview <Preview 4>
+10:43:01 preview logo 20171115102327174a4c9f6d51476b812a5f019726e507.jpg
+10:43:01 preview title 扽广丰
+10:43:06 preview <Preview 4>
+10:43:07 preview <Preview 4>
+10:43:07 preview logo 20171115102327174a4c9f6d51476b812a5f019726e507.jpg
+10:43:07 preview title 扽广丰
+10:47:27 preview <Preview 3>
+10:47:30 preview <Preview 3>
+10:49:45 preview <Preview 3>
+10:49:48 preview <Preview 3>
+10:50:16 preview <Preview 3>
+10:50:28 preview <Preview 3>
+10:50:28 form.logo.data <FileStorage: '缝纫机.jpg' ('image/jpeg')>
+10:50:28 开始保存
+11:21:15 程序执行创建添加管理员
+11:21:15 u <User (transient 72988936)>
+11:21:16 u <User (transient 71961848)>
+11:21:16 u <User (transient 71961904)>
+11:21:16 u <User (transient 71961680)>
+11:21:16 u <User (transient 72130232)>
+11:21:16 u <User (transient 71961848)>
+11:21:16 u <User (transient 72789352)>
+11:21:16 u <User (transient 71961680)>
+11:21:16 u <User (transient 72128160)>
+11:21:17 u <User (transient 71961848)>
+11:21:17 u <User (transient 71961736)>
+11:21:17 u <User (transient 71961680)>
+11:44:01 程序执行创建添加管理员
+11:44:01 u <User (transient 72969128)>
+11:44:27 程序执行创建添加管理员
+11:44:27 u <User (transient 73559008)>
+11:44:27 u <User (transient 71961904)>
+11:44:27 u <User (transient 71961736)>
+11:44:27 u <User (transient 71961680)>
+11:44:27 u <User (transient 72124456)>
+11:44:28 u <User (transient 71961904)>
+11:44:28 u <User (transient 71961736)>
+11:44:28 u <User (transient 71961680)>
+11:44:28 u <User (transient 72124456)>
+11:44:28 u <User (transient 71961904)>
+11:44:28 u <User (transient 71961736)>
+11:44:28 u <User (transient 71961680)>
+14:33:26 admin <Admin 2>
+15:57:43 role.auth 4,5
+15:59:48 role.auth 4,5
+15:59:48 list.auth ['4', '5']
+16:01:17 role.auth 4,5
+16:01:17 list.auth ['4', '5']
+16:01:17 list.auth int <function edit.<locals>.<lambda> at 0x0000000004771488> ['4', '5']
+16:03:34 role.auth 4,5
+16:03:34 list.auth ['4', '5']
+16:03:34 list.auth int <function edit.<locals>.<lambda> at 0x0000000004E8D8C8> ['4', '5']
+19:20:57 admin <Admin 1>
+19:21:06 role.auth 4,5
+19:21:06 list.auth ['4', '5']
+19:21:06 list.auth int <function edit.<locals>.<lambda> at 0x00000000048FCD90> ['4', '5']
+19:35:53 role.auth 4,5
+19:35:53 temp [4, 5]
+19:39:50 role.auth 
+19:40:03 role.auth 2,3
+19:40:03 temp [2, 3]
+20:01:52 admin <Admin 10>
+20:03:31 进入添加电影路由
+20:04:21 进入添加电影路由
+20:04:38 进入添加电影路由
+20:51:39 role.auth 
+20:52:05 role.auth 2,3
+20:52:05 temp [2, 3]
+21:52:45 进入登录页面
+21:58:12 进入登录页面
+21:58:30 进入登录页面
+21:58:30 user <User (transient 74927800)>
+21:58:30 进入登录页面
+21:59:19 进入登录页面
+22:42:21 进入登录页面
+22:49:44 进入登录页面
+22:50:16 进入登录页面
+22:50:16 user <User (transient 84069176)>
+22:50:42 进入登录页面
+22:50:44 进入登录页面
+22:50:58 进入登录页面
+22:51:22 进入登录页面
+22:51:30 进入登录页面
+22:51:30 user <User (transient 112750488)>
+22:53:07 进入登录页面
+22:53:19 进入登录页面
+22:53:30 进入登录页面
+22:53:30 user <User (transient 78676656)>
+22:53:30 进入登录页面

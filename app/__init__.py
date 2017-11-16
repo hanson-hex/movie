@@ -10,6 +10,7 @@ app = Flask(__name__)
 # 将配置文件引入
 app.config.from_pyfile('app.conf')
 app.config['UP_DIR'] = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'static/uploads/')
+app.config['FC_DIR'] = os.path.join(os.path.abspath(os.path.dirname(__file__)), "static/users/")
 
 db = SQLAlchemy(app)
 

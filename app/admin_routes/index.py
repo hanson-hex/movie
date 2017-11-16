@@ -7,7 +7,8 @@ from flask import url_for
 from flask import flash
 from flask import session
 from flask import request
-
+from app.admin_routes.forms import PwdForm
+from werkzeug.security import generate_password_hash
 from . import admin_login_req
 
 from app.utils import log
@@ -28,10 +29,23 @@ def index():
     return render_template('admin/index.html', )
 
 
-@main.route('/pwd/')
+@main.route("/pwd/", methods=["GET", "POST"])
 @admin_login_req
 def pwd():
-    return render_template('admin/pwd.html')
+    form = PwdForm()
+    if form.validate_on_submit():
+        data = form.data
+        name = session["admin"]
+        admin = Admin.query.filter_by(name=name).first()
+        new_pwd = generate_password_hash(data['new_pwd'])
+        admin.pwd = new_pwd
+        admin.save()
+        flash("密码修改成功,请重新登录！", "ok")
+        session.pop('admin', None)
+        session.pop('admin_id', None)
+        redirect(url_for('.login'))
+    return render_template('admin/pwd.html', form=form)
+
 
 
 @main.route('/login/', methods=['GET', 'POST'])
@@ -56,6 +70,7 @@ def login():
             flash('密码错误', "err")
             return redirect(url_for('admin.login'))
         session['admin'] = data['name']
+        session['admin_id'] = admin.id
         return redirect(request.args.get('next') or url_for('admin.index'))
     return render_template('admin/login.html ', form=form)
 
@@ -64,5 +79,6 @@ def login():
 @main.route('/logout/')
 @admin_login_req
 def logout():
-    session.pop('admin')
+    session.pop('admin', None)
+    session.pop('admin_id', None)
     return redirect(url_for('.login'))

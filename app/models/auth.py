@@ -14,3 +14,7 @@ class Auth(db.Model, ModelMixin):
     url = db.Column(db.String(255), unique=True)  # 地址
     addtime = db.Column(db.DateTime, index=True, default=datetime.now)  # 添加时间
 
+    def __init__(self, form):
+        self.name = form.get('name', '')
+        self.url = form.get('url', '')
+

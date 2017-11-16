@@ -15,7 +15,7 @@ from wtforms.validators import email
 from wtforms.validators import Regexp
 from wtforms.validators import ValidationError
 
-from app.models import User
+from app.models.user import User
 
 
 class UserForm(FlaskForm):

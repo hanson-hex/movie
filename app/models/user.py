@@ -3,6 +3,8 @@ from . import ModelMixin
 from app import db
 from datetime import datetime
 from werkzeug.security import check_password_hash
+from werkzeug.security import generate_password_hash
+import uuid
 
 class User(db.Model, ModelMixin):
     """
@@ -26,6 +28,14 @@ class User(db.Model, ModelMixin):
 
     def check_pwd(self, pwd):
         return check_password_hash(self.pwd, pwd)
+
+    def __init__(self, form):
+        self.name = form.get('name', '')
+        password = form.get('pwd', '')
+        self.pwd = generate_password_hash(password)
+        self.email =form.get('email', 1)
+        self.phone = form.get('phone', 1)
+        self.uuid = uuid.uuid4().hex
 
 
 
