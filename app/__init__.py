@@ -3,6 +3,7 @@ from flask import Flask
 from flask import Flask
 from flask import render_template
 from flask_sqlalchemy import SQLAlchemy
+from flask_redis import FlaskRedis
 import os
 
 
@@ -11,7 +12,7 @@ app = Flask(__name__)
 app.config.from_pyfile('app.conf')
 app.config['UP_DIR'] = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'static/uploads/')
 app.config['FC_DIR'] = os.path.join(os.path.abspath(os.path.dirname(__file__)), "static/users/")
-
+rd = FlaskRedis(app)
 db = SQLAlchemy(app)
 
 # 引入前台蓝图
