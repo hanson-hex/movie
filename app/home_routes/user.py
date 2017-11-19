@@ -39,6 +39,9 @@ def user():
 @main.route('/profile/', methods=['GET', 'POST'])
 @user_login_req
 def profile():
+    """
+    个人信息
+    """
     form = UserdetailForm()
     user = User.query.filter_by(name=session["user"]).first()
     form.face.validators = []
@@ -80,6 +83,9 @@ def profile():
 @main.route('/pwd/', methods=['GET', 'POST'])
 @user_login_req
 def pwd():
+    """
+    密码修改
+    """
     form = PwdForm()
     if form.validate_on_submit():
         data = form.data
@@ -94,6 +100,9 @@ def pwd():
 @main.route('/comment/<int:page>/', methods=['GET'])
 @user_login_req
 def comment(page=None):
+    """
+    评论
+    """
     if page == None:
         page = 1
     page_data = Comment.query.join(User).filter(
@@ -108,6 +117,9 @@ def comment(page=None):
 @main.route('/loginlog/<int:page>/', methods=['GET'])
 @user_login_req
 def loginlog(page=None):
+    """
+    登录日志
+    """
     if page == None:
         page = 1
     page_data = Userlog.query.join(User).filter(
@@ -122,6 +134,9 @@ def loginlog(page=None):
 @main.route('/moviecol/<int:page>/', methods=['GET'])
 @user_login_req
 def moviecol(page=None):
+    """
+    收藏列表
+    """
     if page == None:
         page = 1
     page_data = Moviecol.query.join(User).join(Movie).filter(
@@ -137,6 +152,9 @@ def moviecol(page=None):
 @main.route("/moviecol/add/", methods=["GET"])
 @user_login_req
 def moviecol_add():
+    """
+    收藏添加
+    """
     import json
     mid = request.args.get("mid", '')
     uid = request.args.get("uid", '')
