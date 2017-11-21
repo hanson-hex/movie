@@ -43,11 +43,11 @@
         <!--小屏幕导航按钮和logo-->
         <!--导航-->
         <div class="navbar-collapse collapse">
-            <form class="navbar-form navbar-left" role="search" style="margin-top:18px;">
+            <form class="navbar-form navbar-left" role="search" style="margin-top:18px;" id="key_movie">
                 <div class="form-group input-group">
                     <input type="text" class="form-control" placeholder="请输入电影名！">
                     <span class="input-group-btn">
-                        <a class="btn btn-default" href="{{ url_for('index.search', page=1) }}"><span class="glyphicon glyphicon-search"></span>&nbsp;搜索</a>
+                        <a class="btn btn-default" id="do_search"><span class="glyphicon glyphicon-search"></span>&nbsp;搜索</a>
                     </span>
                 </div>
             </form>
@@ -112,6 +112,10 @@
         $("img.lazy").lazyload({
             effect: "fadeIn"
         });
+        $('#do_search').click(function () {
+        key = $('#key_movie').val
+        location.href = "{{ url_for('index.search', page=1) }}?key=" + key
+        })
     });
 </script>
 {% block js %}
