@@ -2,6 +2,6 @@ server {
     listen 80;
     server_name www.hansonhex.cn;
     location / {
-        proxy_pass http://localhost:2003;
+        proxy_pass http://localhost:2003/1/;
     }
 }
